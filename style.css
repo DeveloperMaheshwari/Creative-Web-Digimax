@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.row{
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.border{
+    border-color: rgba(131, 126, 126, 0.259);
+    border-radius: 0.8rem;
+    padding: 1rem;
+    transition: 2s;
+}
+
+.border:hover{
+    border-color: rgba(128, 29, 29, 0.596);
+    box-shadow: inset;
+}
+
+nav{
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.nav-link{
+    transition: 2s;
+}
+
+.nav-link:hover{
+    color: deeppink !important;
+}
+
+.button{
+    background: linear-gradient( rgb(236, 65, 196),rgba(83, 71, 197, 0.903));
+}
+
+.upper{
+    width: 35rem;
+}
+
+.img{
+    width: 12rem;
+}
+
+.outer{
+    border: 1px solid white;
+}
+
+.right{
+    width: 40rem;
+    padding-left: 6rem !important;
+}
+
+.left1{
+    background-image: url("https://images.pexels.com/photos/3749989/pexels-photo-3749989.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"); 
+    /* background-image: url("https://images.pexels.com/photos/205508/pexels-photo-205508.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"); */
+    background-size: cover;
+    background-position: center;
+    border-radius: 0.8rem;
+    padding-right: 2rem;
+}
+
+.value{
+    width: 45rem;
+}
+
+.right1{
+    background-color:  rgba(124, 94, 232, 0.853) ;
+    color: white;
+    border-radius: 0.8rem;
+}
+
+.vision{
+    width:25rem ;
+}
+
+.right2{
+    background-color: rgba(238, 98, 205, 0.964);
+    color: white;
+    border-radius: 0.8rem;
+}
+
+.mission{
+    width:25rem ;
+}
+
+#elements{
+    background: linear-gradient( rgb(236, 65, 196),rgba(83, 71, 197, 0.903));
+}
+
+.heading{
+    width: 50rem;
+}
+
+.left2{
+    width: 40rem;
+}
+
+.progress{
+    width: 40rem !important;
+}
+
+.blog1{
+    background-image: url("https://theme.creativemox.com/digimax/wp-content/uploads/sites/7/2024/01/imac_img.png");
+    background-size: cover;
+    background-position: center;
+} 
+
+.data1{
+    width: 18rem;
+}
+
+.blog2{
+    background-image: url("https://theme.creativemox.com/digimax/wp-content/uploads/sites/7/2024/01/img_1.png");
+    background-size: cover;
+    background-position: center;
+} 
+
+.data2{
+    width: 10rem;
+}
+
+.blog4{
+    background-image: url("https://theme.creativemox.com/digimax/wp-content/uploads/sites/7/2024/01/mobile_app.png");
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.data4{
+    width: 22rem;
+}
+
+.blog5{
+    background: linear-gradient(rgba(196, 107, 178, 0.785), rgba(58, 58, 127, 0.807));
+}
+
+#post{
+    height:70vh;
+    background-image: url("https://images.pexels.com/photos/2041393/pexels-photo-2041393.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-position: center;
+    background-size: cover; 
+}
+
+.desc{
+    width: 40rem;
+    background-color: rgba(79, 74, 74, 0.533);
+    border-radius: 0.8rem;
+}
+
+.img-c{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.end:hover{
+    color: deeppink;
+}
+
+a{
+    text-decoration: none;
+    color: gray;
+}
+@media screen and (max-width:427px) {
+    .upper{
+        width: 18rem;
+    }
+
+    .right{
+        width: 60rem;
+        padding-left: none !important;
+    }
+
+    .left1{
+        padding: 1rem;
+        margin: 1rem;
+        }
+
+    .vision{
+        width:18rem ;
+    }
+
+    .mission{
+        width:18rem ;
+    }
+
+    .border{
+        /* margin: 1 0 !important; */
+    }
+
+    .left2{
+        width: 17rem;
+    }
+    
+    .progress{
+        width: 15rem !important;
+    }
+
+    .desc{
+      width: 25rem;  
+    }
+/* 
+    .card{
+        margin: 1 0;
+    } */
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: none;
+    }
+    
+}
